@@ -198,6 +198,20 @@ body {
     object-position: 0px -140px;
 }
 
+
+.footer
+{
+   background-color: var(--color-5); 
+   text-align: center;
+   color: white;
+}
+.footer > * {
+    opacity: 54%;
+}
+.footer_title {
+    font-weight: bold;
+}
+
 img {
     width: 100%;
     object-fit: cover;
@@ -228,6 +242,7 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        text-align: inherit;
     }
 
     .title-wrapper {
