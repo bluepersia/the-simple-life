@@ -212,6 +212,30 @@ body {
     font-weight: bold;
 }
 
+
+.about_img {
+    max-height: 308px;
+}
+
+.about_title {
+    font-family: var(--font-2);
+    color: var(--color-5);
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+.about_body {
+    line-height: 1.6;
+}
+
+.about_subtitle {
+    font-family: var(--font-2);
+    color: var(--color-4);
+    font-weight: normal;
+    font-size: 1.16rem;
+}
+
+
 img {
     width: 100%;
     object-fit: cover;
@@ -275,6 +299,7 @@ img {
 
     .article_col-2 {
         width: 67%;
+        margin-top: 0;
     }
 
     .article:last-child .article_img {
