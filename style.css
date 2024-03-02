@@ -1,0 +1,46 @@
+:root 
+{
+    --font-1: "Ubuntu", sans-serif;
+    --font-2: "Lora", serif;
+
+    --color-1: #FFFFFF;
+    --color-2: #EBEBEB;
+    --color-3: #F8F8F8;
+    --color-4: #1792D2;
+    --color-5: #143774;
+    --color-6: #707070;
+    --color-7: #717171;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-1);
+    color: var(--color-6);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* :first-child{
+    margin-top: 0;
+}
+
+* :last-child{
+    margin-bottom: 0;
+}
+
+
+.img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.container {
+    padding: 2em 3.6%;
+}
