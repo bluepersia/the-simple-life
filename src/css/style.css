@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* :first-child {
+  margin-top: 0;
+}
+
+* :last-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
