@@ -1,0 +1,38 @@
+$color-1:white;
+$color-2:#EBEBEB;
+$color-3: #F8F8F8;
+$color-4: #1792D2;
+$color-5: #143774;
+$color-6: #707070;
+$color-7: #717171;
+
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    font-family: "Lora", serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* :first-child {
+    margin-top: 0;
+}
+
+* :last-child 
+{
+    margin-bottom: 0;
+}
+
+
+
+
