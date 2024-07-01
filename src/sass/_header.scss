@@ -59,3 +59,31 @@
         }
     }
 }
+
+@media (min-width:1057px) {
+    
+    .header
+    {
+        padding: 5.83rem 0 5.77rem;
+        & .container 
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__intro 
+        {
+            margin-bottom: 0;
+        }
+    }
+
+    .nav 
+    {
+        &__list 
+        {
+            flex-direction: row;
+        }
+    }
+}

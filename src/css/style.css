@@ -88,6 +88,23 @@ html {
   bottom: 0px;
 }
 
+@media (min-width: 1057px) {
+  .header {
+    padding: 5.83rem 0 5.77rem;
+  }
+  .header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__intro {
+    margin-bottom: 0;
+  }
+  .nav__list {
+    flex-direction: row;
+  }
+}
 .main {
   padding-top: 3.22rem;
   padding-bottom: 3.88rem;
@@ -132,6 +149,7 @@ html {
 .preview__img {
   display: block;
   width: 100%;
+  object-fit: cover;
 }
 
 .side__section, .side__recent, .side__about {
@@ -182,6 +200,32 @@ html {
   text-decoration: none;
   color: #143774;
   font-size: 1rem;
+}
+
+@media (min-width: 1057px) {
+  .main .container {
+    flex-direction: row;
+    gap: 2.8rem;
+  }
+  .main__content {
+    width: 71%;
+  }
+  .preview {
+    display: flex;
+    justify-content: space-between;
+  }
+  .preview__img {
+    height: 242px;
+  }
+  .preview__col-1 {
+    width: 27.7%;
+  }
+  .preview__col-2 {
+    width: 67.6%;
+  }
+  .side {
+    width: 23.8%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

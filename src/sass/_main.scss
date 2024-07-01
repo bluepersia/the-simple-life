@@ -67,6 +67,7 @@
     {
         display: block;
         width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -143,5 +144,47 @@
             color: $color-5;
             font-size: 1rem;
         }
+    }
+}
+
+
+@media (min-width: 1057px)
+{
+    .main 
+    {
+        & .container 
+        {
+            flex-direction: row;
+            gap: 2.8rem;
+        }
+
+        &__content 
+        {
+            width: 71%;
+        }
+    }
+
+    .preview 
+    {
+        display: flex;
+        justify-content: space-between;
+
+        &__img 
+        {
+            height: 242px;
+        }
+        &__col-1 
+        {
+            width: 27.7%;
+        }
+
+        &__col-2
+        {
+            width: 67.6%;
+        }
+    }
+
+    .side {
+        width: 23.8%;
     }
 }
