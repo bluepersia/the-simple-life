@@ -1,0 +1,23 @@
+.footer 
+{
+    background-color: $color-5;
+    text-align: center;
+    padding: 3.33rem 0;
+
+
+    &__title, &__copyright 
+    {
+        color: $color-1;
+        opacity: 54%;
+    }
+    &__title 
+    {
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    &__copyright 
+    {
+        margin-top: 0;
+    }
+}

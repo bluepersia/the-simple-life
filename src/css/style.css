@@ -112,7 +112,7 @@ html {
 .main .container {
   display: flex;
   flex-direction: column;
-  gap: 1.66rem;
+  gap: 2.5rem;
 }
 .main__articles {
   padding-top: 2.27rem;
@@ -226,6 +226,36 @@ html {
   .side {
     width: 23.8%;
   }
+}
+.footer {
+  background-color: #143774;
+  text-align: center;
+  padding: 3.33rem 0;
+}
+.footer__title, .footer__copyright {
+  color: white;
+  opacity: 54%;
+}
+.footer__title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.footer__copyright {
+  margin-top: 0;
+}
+
+.about__img {
+  display: block;
+  width: 100%;
+  max-height: 308px;
+  object-fit: cover;
+}
+.about__title {
+  font-size: 1.33rem;
+}
+.about__subtitle {
+  color: #1792D2;
+  font-size: 1.16rem;
 }
 
 /*# sourceMappingURL=style.css.map */

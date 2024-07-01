@@ -1,0 +1,22 @@
+
+
+.about 
+{
+    &__img 
+    {
+        display: block;
+        width: 100%;
+        max-height: 308px;
+        object-fit: cover;
+    }
+
+    &__title
+    {
+        font-size: 1.33rem;
+    }
+    &__subtitle
+    {
+        color: $color-4;
+        font-size: 1.16rem;
+    }
+}
