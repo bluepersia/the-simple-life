@@ -6,19 +6,24 @@ $color-5: #143774;
 $color-6: #707070;
 $color-7: #717171;
 
+$font-ubuntu: "Ubuntu", sans-serif;
+$font-lora: "Lora", serif;
+
 body {
     margin: 0;
-    font-family: "Ubuntu", sans-serif;
+    font-family:  $font-ubuntu;
 }
 
 p {
     line-height: 1.6;
+    color: $color-6;
 }
 
 h1, h2, h3, h4, h5, h6 
 {
-    font-family: "Lora", serif;
+    font-family: $font-lora;
     color: $color-5;
+    font-weight: normal;
 }
 
 * {
@@ -36,4 +41,6 @@ h1, h2, h3, h4, h5, h6
 
 
 
-
+html {
+    font-size: 18px;
+}

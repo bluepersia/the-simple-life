@@ -1,0 +1,147 @@
+
+
+.main 
+{
+    padding-top: 3.22rem;
+    padding-bottom: 3.88rem;
+
+    & .container 
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1.66rem;
+    }
+
+    &__articles 
+    {
+        padding-top: 2.27rem;
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2.88rem;
+    }
+}
+.article 
+{
+    padding-bottom: 2rem;
+    &__img 
+    {
+        width: 100%;
+        display: block;
+    }
+
+    &__meta 
+    {
+        font-size: .77rem;
+        color: $color-6;
+    }
+
+    &__title 
+    {
+        font-size: 1.33rem;
+    }
+
+    &__body 
+    {
+        & a 
+        {
+            color:$color-4;
+        }
+    }
+
+    &__continue 
+    {
+        @extend .uppercase;
+        text-decoration: none;
+        font-size: .77rem;
+    }
+
+    border-bottom: solid 1px $color-6;
+}
+
+
+.preview 
+{
+    &__img 
+    {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+.side__section
+{
+    border:solid 20px $color-2;
+
+    padding:1.4rem;
+}
+
+.side 
+{
+    &__title 
+    {
+        font-size: 1rem;
+        font-family: $font-ubuntu;;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: .2em;
+    }
+
+    &__body 
+    {
+        font-size: .77rem;
+        color: $color-5;
+    }
+
+    &__about 
+    {
+        @extend .side__section;
+        margin-bottom: 4.33rem;
+        &__img 
+        {
+            width: 100%;
+            display: block;
+            max-height: 133px;
+            object-fit: cover;
+        }
+    }
+
+    &__recent 
+    {
+        @extend .side__section;
+
+        &__list 
+        {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        &__item:not(:last-child)
+        {
+            border-bottom: 1px solid $color-6;
+            padding-bottom: 1rem;
+        }
+
+        &__img 
+        {
+            width: 100%;
+            display: block;
+            max-height: 87px;
+            object-fit: cover;
+            margin-bottom: .5rem;
+        }
+
+        &__subtitle 
+        {
+            font-family: $font-lora;
+            text-decoration: none;
+            color: $color-5;
+            font-size: 1rem;
+        }
+    }
+}

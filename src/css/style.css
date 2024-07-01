@@ -5,11 +5,13 @@ body {
 
 p {
   line-height: 1.6;
+  color: #707070;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif;
   color: #143774;
+  font-weight: normal;
 }
 
 * {
@@ -24,12 +26,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+html {
+  font-size: 18px;
+}
+
 .container {
   width: 95%;
   max-width: 1005px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.uppercase, .header__subtitle {
+.uppercase, .article__continue, .header__subtitle {
   color: #1792D2;
   font-weight: bold;
   text-transform: uppercase;
@@ -39,18 +47,18 @@ h1, h2, h3, h4, h5, h6 {
 .header {
   text-align: center;
   background-color: #F8F8F8;
-  padding: 2.93em 0 3.81em;
+  padding: 2.6em 0 3.38em;
 }
 .header__intro {
   margin-bottom: 2rem;
 }
 .header__title {
-  font-size: 2.06rem;
+  font-size: 1.83rem;
   margin-bottom: 0;
 }
 .header__subtitle {
   margin-top: 0;
-  font-size: 0.75rem;
+  font-size: 0.66rem;
 }
 
 .nav__list {
@@ -58,10 +66,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 2.13rem;
 }
 .nav__link {
   color: #717171;
+  font-size: 0.88rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -77,6 +86,102 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   left: 0px;
   bottom: 0px;
+}
+
+.main {
+  padding-top: 3.22rem;
+  padding-bottom: 3.88rem;
+}
+.main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.66rem;
+}
+.main__articles {
+  padding-top: 2.27rem;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.88rem;
+}
+
+.article {
+  padding-bottom: 2rem;
+  border-bottom: solid 1px #707070;
+}
+.article__img {
+  width: 100%;
+  display: block;
+}
+.article__meta {
+  font-size: 0.77rem;
+  color: #707070;
+}
+.article__title {
+  font-size: 1.33rem;
+}
+.article__body a {
+  color: #1792D2;
+}
+.article__continue {
+  text-decoration: none;
+  font-size: 0.77rem;
+}
+
+.preview__img {
+  display: block;
+  width: 100%;
+}
+
+.side__section, .side__recent, .side__about {
+  border: solid 20px #EBEBEB;
+  padding: 1.4rem;
+}
+
+.side__title {
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+.side__body {
+  font-size: 0.77rem;
+  color: #143774;
+}
+.side__about {
+  margin-bottom: 4.33rem;
+}
+.side__about__img {
+  width: 100%;
+  display: block;
+  max-height: 133px;
+  object-fit: cover;
+}
+.side__recent__list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.side__recent__item:not(:last-child) {
+  border-bottom: 1px solid #707070;
+  padding-bottom: 1rem;
+}
+.side__recent__img {
+  width: 100%;
+  display: block;
+  max-height: 87px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.side__recent__subtitle {
+  font-family: "Lora", serif;
+  text-decoration: none;
+  color: #143774;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

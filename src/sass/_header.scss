@@ -4,7 +4,7 @@
 {
     text-align: center;
     background-color: $color-3;
-    padding: 2.93em 0 3.81em;
+    padding: 2.6em 0 3.38em;
 
     &__intro 
     {
@@ -13,7 +13,7 @@
 
     &__title
     {
-        font-size: 2.06rem;
+        font-size: 1.83rem;
         margin-bottom: 0
     }
 
@@ -21,7 +21,7 @@
     {
         @extend .uppercase;
         margin-top: 0;
-        font-size: .75rem;
+        font-size: .66rem;
     }
 }
 
@@ -34,11 +34,12 @@
         padding-left: 0;
         display: flex;
         flex-direction: column;
-        gap: 2.4rem;
+        gap: 2.13rem;
     }
 
     &__link {
         color: $color-7;
+        font-size: .88rem;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: .2em;
