@@ -9,6 +9,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif;
+  color: #143774;
 }
 
 * {
@@ -21,6 +22,61 @@ h1, h2, h3, h4, h5, h6 {
 
 * :last-child {
   margin-bottom: 0;
+}
+
+.container {
+  width: 95%;
+  max-width: 1005px;
+}
+
+.uppercase, .header__subtitle {
+  color: #1792D2;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.header {
+  text-align: center;
+  background-color: #F8F8F8;
+  padding: 2.93em 0 3.81em;
+}
+.header__intro {
+  margin-bottom: 2rem;
+}
+.header__title {
+  font-size: 2.06rem;
+  margin-bottom: 0;
+}
+.header__subtitle {
+  margin-top: 0;
+  font-size: 0.75rem;
+}
+
+.nav__list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.nav__link {
+  color: #717171;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 0.2em;
+}
+.nav__link--active::after {
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  background-color: #717171;
+  content: "";
+  left: 0px;
+  bottom: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
